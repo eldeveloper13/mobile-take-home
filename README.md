@@ -43,5 +43,7 @@ This application uses google map.  Therefore, you need to enter your own google_
 A restricted key is included in the debug version.  You can build and install the debug version by running
 
 ```sh
-gradlew installDebug in the terminal.
+gradlew installDebug
 ```
+
+ in the terminal.
