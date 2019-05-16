@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AirportRouteFinder</string>
+    <string name="title_activity_maps">Airport Route Finder</string>
+    <string name="search_error_no_path_found">No path found</string>
+    <string name="search_error_no_airport_info">Cannot find airport information of the route</string>
+    <string name="search_error_empty_origin">Origin cannot be empty</string>
+    <string name="search_error_empty_destination">Destination cannot be empty</string>
+    <string name="search_error_origin_destination_same">Origin cannot be the same as destination</string>
+    <string name="search_error_cannot_find_origin">Cannot find origin airport</string>
+    <string name="search_error_cannot_find_destination">Cannot find destination airport</string>
+    <string name="dismiss">Dismiss</string>
+</resources>

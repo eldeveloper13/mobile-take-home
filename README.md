@@ -26,3 +26,22 @@ The application may be done in Xamarin or in any native language that runs on th
 ### Questions
 
 If you have any questions during the challenge feel free to email Peter Samsonov at psamsonov@guestlogix.com. Whether it be a question about the requirements, submitting, anything, just send the email!
+
+### Assumptions
+
+- routes.csv contains airline id 'AC', which is not in airlines.csv.  From Peter's email, it is assumed that the routes do not need to be filtered out.
+- airlines.csv is not being used and no code is created to use it
+- airports.csv contains IATA 3 with value \N.  These are assumed to be invalid airport data and will not be used.
+- routes with multiple airline servicing it will not be differentiated.
+- it is not necessary to mark the origin, transfer airport #, and the destination in the map.  However, the name and the IATA are included in the marker.
+- User will wait until the map is loaded before using the app.  No splash screen, progress bar, etc will prevent the user from using the app before the map and data are fully loaded.
+
+### Installation
+
+This application uses google map.  Therefore, you need to enter your own google_maps_key in google_maps_api.xml in order to run the release version.
+
+A restricted key is included in the debug version.  You can build and install the debug version by running
+
+```sh
+gradlew installDebug in the terminal.
+```
